@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This circuit is used to detect the rising and falling edge conditions when an input button is pressed. The system is clock synchronized; x1 flipflop type D, x2 AND, and 1x NOT are used to determine the system status.
 
 ## How to test
 
-Explain how to use your project
+Press the button and verify the rising and falling edge LED.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+To verify the system, you have to connect a pull-down single-button circuit to the IN0. Furthermore, x2 led circuits have to be connected to the OUT0 and OUT1 for the rising and falling detection, respectively. An Oscilloscope is needed to verify the signals.
